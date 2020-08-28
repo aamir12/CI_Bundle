@@ -88,7 +88,7 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 
 //my constants
-define('ROOTURL','http://localhost/basiccode/');
+define('ROOTURL','http://localhost/ci_bundle/');
 define('CSSURL',ROOTURL.'assets/css/');
 define('JSURL',ROOTURL.'assets/js/');
 define('IMGURL',ROOTURL.'assets/images/');

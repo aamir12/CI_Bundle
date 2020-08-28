@@ -16,9 +16,7 @@
 <div class="col-md-6">
 
 <h2 class="text-center bg-primary  well-sm ">Products </h2>
-<?php foreach($products as $product)
-{
-
+<?php foreach($products as $product){
 echo form_open('shop/add',array('class'=>'form-horizontal','role'=>'form'));
 ?>
 <div class="row well">
@@ -65,12 +63,6 @@ echo '<div class="form-group">
 echo form_submit('action','Add to Cart', array('class'=>'btn btn-primary btn-sm'));
 echo '</div>
   </div>';
-
-?>
-
-
-
-<?php
 echo '</div> '.form_close().'</div>';
 
 }
